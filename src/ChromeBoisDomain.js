@@ -19,7 +19,7 @@ export default class ChromeBoisDomain extends Component {
    * listener that should fire it!
    */
 
-  handleMouseMove = (event) => {
+  handleKeyDown = (event) => {
     // console.log(this.props)
     if (event.key === 'a') {
       resize('+')
